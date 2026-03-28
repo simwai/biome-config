@@ -6,11 +6,9 @@
     "useIgnoreFile": true
   },
   "files": {
-    "ignoreUnknown": false,
+    "ignoreUnknown": true,
     "includes": [
-      "**/*.{js,ts,jsx,tsx}",
-      "!**/node_modules/**",
-      "!**/dist/**"
+      "**/*.{js,ts,jsx,tsx,json,jsonc,yml,yaml,md}", "!**/node_modules", "!**/dist"
     ]
   },
   "formatter": {
